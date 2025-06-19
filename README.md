@@ -34,4 +34,4 @@ O pipeline está localizado em `.github/workflows/pipeline.yml` e é acionado a 
 ## 🚀 Deploy
 
 O site será publicado automaticamente em:
-
+https://<seu-usuario>.github.io/<nome-do-repositorio>/
