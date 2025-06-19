@@ -31,6 +31,6 @@ jobs:
         run: |
           echo "Seu site está disponível em: https://diegosena7.github.io/pipeline-devops/"
 
-      - name: 5. Notificar o sucesso do deploy
+      - name: 5. Notificando o sucesso do deploy
         run: |
           echo "Deploy realizado com sucesso!"
