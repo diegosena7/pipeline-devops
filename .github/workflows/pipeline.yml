@@ -25,4 +25,12 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
-          publish_branch: gh
+          publish_branch: gh-pages
+
+      - name: 4. Logar URL do site publicado
+        run: |
+          echo "Seu site está disponível em: https://diegosena7.github.io/pipeline-devops/"
+
+      - name: 5. Notificar o sucesso do deploy
+        run: |
+          echo "Deploy realizado com sucesso!"
